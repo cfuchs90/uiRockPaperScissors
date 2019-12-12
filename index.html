@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Rock, Paper, Scissors</title>
+    <style>
+      .finalWinnerBox {
+	  visibility: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="rock" value="rock">Rock</button>
+    <button id="paper" value="paper">Paper</button>
+    <button id="scissors" value="scissors">Scissors</button>
+
+    <div class="scoreBox">
+      <h1 id="score">Nobody</h1>
+      <h2>Number of Games</h2>
+      <span id="numGames">0</span>
+      <h2>Player wins</h2>
+      <span id="playerScore">0</span>
+      <h2>Computer Wins</h2>
+      <span id="computerScore">0</span>
+      <h2>Draws</h2>
+      <span id="draws">0</span>
+    </div>
+
+    <div class="finalWinnerBox">
+      <h1>Final Winner</h1>
+      <span id="fWinner"></span>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
